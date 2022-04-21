@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tessact-subs",
+  "private_key_id": "e9601f76f09ca79049b5019f9abe878daf8af962",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC/6uDIYu44hNDW\n9+RI7dvzqcKp/7taE2oLE5LY78ow68BL6m3IAqalY76thX4Z3Ckr9KwD8lCfxF+6\nZOv9NwUSZw+Dd6dm02o5rG532grTlt6+XeXX3XSR5TNGUNGSbPu6lCMsewNBpfm+\nc0s/XFLEMUkjJjr+9cnWMAN56ErD2xDIQCnyfy/qJoBKDMVRrfe8JdXRU8+GkYt9\nhEq4kq5/b8nwMvqSMMalkBl8EP2prcLGNXlCmdAytvRW3J0gftedxO1Bc+XrxTZ8\nodBb+pEzfyh5XKBb5ZQeEnAhzsZrKimHyHcbjdy1TSJcYWJBcKFwFB3t+6D96KOK\n07YNrMWjAgMBAAECggEAW70rgS5lQGggqjmqCsCEzSd/caLYjHjOTognQILzTEpN\nTBy+KIc34MRaz/iJbFQk7CmTlnlc19pXhjKa6hpEVuUj8cyfHVR/KR2HWsxEM5uh\nUy9wYK0v/VOqHHkijNOCy0/ntmoBBv8PcF4NgLahq74Bf4dVWS3lsviVmM8U+iSn\nndGnDmJb3AweZaxOuyNGeIbJKswcoulpHAJw5F7poqP7RWBZ77/6kuulkbL2kaeU\neltr1Iqhuu2Fsssg0pZNZi7brLfsqKb+ThJxHGZhEP7AtjuCxSOh4ddXjMN0IHfp\ncNXGNP7GkRpoL6uD6Q2G8rc0gAHqPx83TFIU5AuK0QKBgQDuMgcALKgPo5i1C4Sk\nloHlwWtjAV/CEQvgXy4g6Xw+o2xelevzxo9Rkd8H48co4btFcNDO7MKXoJuY2tDG\nRcBqlCf6eM6Q9G6bxfWAX5/W0AqoIv5F1WnWZM+/xGG1RA1Ac8B7qwDV4r/9oTCJ\ntcZEdTiCOlbpVvlDNXLchtmnsQKBgQDOQ01xPhR2DADq8r3HuJHEPkpE+OhkXYJV\njYykF6E1lAPtPUue3t4eF/4Gr9bNvG2OCHP9a/Y/MHkXF71YQIrOIVAmze2URqsS\nY1kV/xA8HaU7VM9eYZOXE19aKAgq24xwZFhmXmGUxDfkwhcWgdboRfeS/0HWW2mG\nIa5KoGLrkwKBgCG5hZI5wGXOdO2VPueKw8OC+jBfXm58uWDAOSjBxiycONi/g1PV\nli8nZxuX3XflVf2D9pyFmxuaysz+ljasY4zzgyGMfzq40PxPL+5IG7pvZELgCX5b\ntAt95IgzRt5CT1oDyYn48TpXS3Wen9+vk+3XZvPRTMLm5I3mgGfG1ARRAoGBAKN4\n+dancgYBC3UqP7kbkgOrrqctctmgttxhXDbtN2pETjxnWRin3/iP4VehYygZj+aC\n0pLmTvrTyxS/TuSz+o7WHjUy/nmG7KydKozhYxeSE1OLqvJNeXDB/M9ybM6yxIKL\nNPilEseaIAZgwXWoIBBk64uIXMCsIF0bMoyYwu2bAoGBAMicRsztoWPKF0XxFE4h\nH89XpV9DGlxEmtVMm/H/BiJmyE8J0HyRy05yapCsxJoDGN/oTXxg/U2M0Oj2SBc0\nzxWUOY6TLXd+tW27o1M/xAnik9KQ/CWB7WQTpubwSA0wYk1tFE+acBg4JfVbFWf1\nePoH9oKOPHKeHmnhcGtY2qEp\n-----END PRIVATE KEY-----\n",
+  "client_email": "trigger-cognitive-service-acco@tessact-subs.iam.gserviceaccount.com",
+  "client_id": "117842052859170445478",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/trigger-cognitive-service-acco%40tessact-subs.iam.gserviceaccount.com"
+}

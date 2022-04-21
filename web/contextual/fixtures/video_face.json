@@ -1,0 +1,66 @@
+[
+{
+    "model": "video.video",
+    "pk": "2992b9d6-e3cb-431d-ba5a-15ee734ec0c5",
+    "fields": {
+        "title": "Why is congress rushing to claim credit ?",
+        "file": "https://triggerbackendnormal.blob.core.windows.net/backend-media/Why%20Is%20Congress%20Rushing%20To%20Claim%20Credit%20-%20The%20Newshour%20Debate%20(3rd%20May).mp4",
+        "is_removed": false,
+        "created_on": "2017-05-09T10:56:51.894Z",
+        "modified_on": "2017-05-09T10:56:59.634Z",
+        "duration": 2749.68,
+        "height": 360,
+        "width": 480,
+        "frame_rate": 25.0,
+        "video_codec": "h264",
+        "total_frames": 68742,
+        "poster": "96d88d1e-39f0-484c-846b-afcd8e4f62eb.jpg",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.video",
+    "pk": "5cb26c9c-af19-4ca0-abda-6f0b7e830a5a",
+    "fields": {
+        "title": "Pakistan understands only punishment",
+        "file": "https://triggerbackendnormal.blob.core.windows.net/backend-media/Pakistan%20Understands%20Only%20Punishment%20-%20The%20Newshour%20Debate%20(1st%20May).mp4",
+        "is_removed": false,
+        "created_on": "2017-05-09T10:57:25.256Z",
+        "modified_on": "2017-05-09T10:57:28.899Z",
+        "duration": 2914.28,
+        "height": 360,
+        "width": 492,
+        "frame_rate": 25.0,
+        "video_codec": "h264",
+        "total_frames": 72857,
+        "poster": "bf8d3aac-fb94-49b8-8284-12e2fcde9daf.jpg",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.video",
+    "pk": "f1119eed-a41e-48ff-a1e6-8fda45e70ac0",
+    "fields": {
+        "title": "DigvijaySingh Co-Apologists For Pak",
+        "file": "https://triggerbackendnormal.blob.core.windows.net/backend-media/Digvijaya%20Singh%20%26%20Co-Apologists%20For%20Pak%20-%20The%20Newshour%20Debate%20(1st%20May).mp4",
+        "is_removed": false,
+        "created_on": "2017-05-09T22:48:19.058Z",
+        "modified_on": "2017-05-09T22:48:42.563Z",
+        "duration": 2619.12,
+        "height": 360,
+        "width": 492,
+        "frame_rate": 25.0,
+        "video_codec": "h264",
+        "total_frames": 65478,
+        "poster": "aa23bb98-37a6-4857-b5c0-113056c5eb1a.jpg",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.videolibrary",
+    "pk": "082b1333-dd35-4ff4-8f75-2fc2a42e158d",
+    "fields": {
+        "videos": []
+    }
+}
+]

@@ -1,0 +1,27 @@
+# custom base image for trigger products
+FROM test-base:phusion_base
+
+ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
+RUN locale-gen en_US.UTF-8
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US.en
+ENV LC_ALL=en_US.UTF-8
+
+
+# Install dependencies.
+COPY requirements /usr/src/app/requirements
+
+WORKDIR /usr/src/app
+
+
+RUN pip3 install --no-cache-dir -r requirements/production.txt
+
+RUN pip3 install --upgrade botocore
+
+RUN wget -P /root/.imageio/ffmpeg/ "https://github.com/imageio/imageio-binaries/raw/master/ffmpeg/ffmpeg-linux64-v3.3.1"
+
+COPY ./.aws /root/.aws
+
+# Copy files into the container
+COPY . /usr/src/app
+

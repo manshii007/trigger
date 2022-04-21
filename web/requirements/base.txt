@@ -1,0 +1,85 @@
+#
+#  Copyright (C) Tessact Pvt. Ltd. - All Rights Reserved
+#  Unauthorized copying of this file, via any medium is strictly prohibited
+#  Proprietary and confidential
+#  Written by Aswin Chandran <aswin@tessact.com>, January 2017
+#
+# Django
+Django==1.9.8
+
+# Environmental var configuration
+python-dotenv==0.6.0
+
+# For the persistence stores
+psycopg2==2.6.2
+dj-database-url==0.4.1
+
+# Rest apis
+djangorestframework==3.4.7
+Markdown==2.6.7
+django-filter==0.15.2
+
+
+# Media files
+boto==2.43.0
+
+# django-storages
+git+https://github.com/jschneier/django-storages.git
+
+# Image manipulation
+django-versatileimagefield==1.6
+
+# For asynchronous queuing
+# django-rq==0.9.2
+
+# Time zones support
+pytz==2016.7
+
+# Distributed task queue
+# celery==3.1.24
+
+# user management
+djoser==0.5.1
+
+# MPTT
+django-mptt==0.8.6
+
+# permissions
+django-guardian==1.4.6
+
+# nested routers
+drf-nested-routers==0.11.1
+
+# extensions
+drf-extensions==0.3.1
+
+# django debug toolbar
+django-debug-toolbar==1.6
+sqlparse==0.2.2
+
+# django-configurations
+django-configurations==2.0
+
+# Caching
+django-redis==4.6.0
+
+# testing
+django-nose==1.4.4
+nose==1.3.7
+
+# CORS
+django-cors-headers==2.0.0
+
+# crispy forms
+django-crispy-forms==1.6.1
+
+# Celery
+amqp==2.1.4
+billiard==3.5.0.2
+kombu==4.0.2
+vine==1.1.3
+Celery==4.0.2
+django-celery-results==1.0.1
+
+#queued storage
+django-queued-storage==0.8.0

@@ -1,0 +1,10 @@
+# [ START Runtime ]
+runtime: custom
+#env: flex
+vm: true
+entrypoint: gunicorn -b :$PORT wsgi
+
+runtime_config:
+  python_version: 3
+
+# [ END Runtime ]

@@ -1,0 +1,57 @@
+[
+{
+    "model": "tags.tag",
+    "pk": "666dafc8-cc4b-4878-8c04-8ee6e79b8d45",
+    "fields": {
+        "name": "Drinking",
+        "is_removed": false,
+        "category": "44072f07-1686-4f63-a1e9-a771ca9902d7",
+        "created_on": "2017-01-30T15:59:55.551Z",
+        "modified_on": "2017-01-30T15:59:55.551Z"
+    }
+},
+{
+    "model": "tags.tag",
+    "pk": "7bd57d8c-f0f6-4362-928b-73c36bb8c97f",
+    "fields": {
+        "name": "Smoking",
+        "is_removed": false,
+        "category": "44072f07-1686-4f63-a1e9-a771ca9902d7",
+        "created_on": "2017-01-30T15:59:46.660Z",
+        "modified_on": "2017-01-30T15:59:46.660Z"
+    }
+},
+{
+    "model": "tags.tag",
+    "pk": "aa2a2084-c7a6-4761-9c4d-5c58701efa5c",
+    "fields": {
+        "name": "Profanity",
+        "is_removed": false,
+        "category": "44072f07-1686-4f63-a1e9-a771ca9902d7",
+        "created_on": "2017-01-30T16:00:39.197Z",
+        "modified_on": "2017-01-30T16:00:39.197Z"
+    }
+},
+{
+    "model": "tags.tag",
+    "pk": "aa9833f9-af28-4964-b462-944631520037",
+    "fields": {
+        "name": "Nudity",
+        "is_removed": false,
+        "category": "44072f07-1686-4f63-a1e9-a771ca9902d7",
+        "created_on": "2017-01-30T16:00:26.029Z",
+        "modified_on": "2017-01-30T16:00:26.029Z"
+    }
+},
+{
+    "model": "tags.tag",
+    "pk": "e95815e5-965e-481a-9db3-0d740839952f",
+    "fields": {
+        "name": "Fighting",
+        "is_removed": false,
+        "category": "44072f07-1686-4f63-a1e9-a771ca9902d7",
+        "created_on": "2017-01-30T16:00:13.808Z",
+        "modified_on": "2017-01-30T16:00:13.808Z"
+    }
+}
+]

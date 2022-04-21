@@ -1,0 +1,110 @@
+[
+{
+    "model": "jobs.taggingjob",
+    "pk": "21765799-d766-4ee3-a79e-a230d36d67a1",
+    "fields": {
+        "created_in": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "created_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "assigned_to": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "taken_by": "1ffd89ad-8d88-4704-8569-7ca7e6a4231b",
+        "video": "2015acda-e6c1-49da-bd60-b67293670b10",
+        "job_type": "24426d0d-f894-4140-96b7-f566644ad2bc"
+    }
+},
+{
+    "model": "jobs.taggingjob",
+    "pk": "29bcb720-637f-4600-89dc-c38a54f79239",
+    "fields": {
+        "created_in": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "created_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "assigned_to": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "taken_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "video": "a4eb2cd9-d244-4016-8395-378ddf4da839",
+        "job_type": "24426d0d-f894-4140-96b7-f566644ad2bc"
+    }
+},
+{
+    "model": "jobs.taggingjob",
+    "pk": "2e250972-1b26-4df0-9efb-8440250adad7",
+    "fields": {
+        "created_in": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "created_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "assigned_to": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "taken_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "video": "c19cbe0c-8e7a-4578-9eae-838289dbe942",
+        "job_type": "24426d0d-f894-4140-96b7-f566644ad2bc"
+    }
+},
+{
+    "model": "jobs.taggingjob",
+    "pk": "6bc1a52b-e8be-41f9-9611-349b054d08a3",
+    "fields": {
+        "created_in": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "created_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "assigned_to": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "taken_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "video": "03e67c7e-f9e9-4db8-959d-982baed43be9",
+        "job_type": "24426d0d-f894-4140-96b7-f566644ad2bc"
+    }
+},
+{
+    "model": "jobs.taggingjob",
+    "pk": "77f240b8-6a73-4b4c-8d47-87aa5fcab7d7",
+    "fields": {
+        "created_in": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "created_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "assigned_to": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "taken_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "video": "efacbafb-d28e-4bde-b7ed-29db879152f6",
+        "job_type": "24426d0d-f894-4140-96b7-f566644ad2bc"
+    }
+},
+{
+    "model": "jobs.taggingjob",
+    "pk": "9567b224-c509-475b-9085-81c5cf7e5f43",
+    "fields": {
+        "created_in": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "created_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "assigned_to": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "taken_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "video": "8cde3d84-be26-47f2-bc4d-83fd2eed7940",
+        "job_type": "24426d0d-f894-4140-96b7-f566644ad2bc"
+    }
+},
+{
+    "model": "jobs.taggingjob",
+    "pk": "9dde872d-f772-443b-9658-2fd3c8070cdf",
+    "fields": {
+        "created_in": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "created_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "assigned_to": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "taken_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "video": "8722cb6b-6c90-4ed3-aef8-63210cd3c3bf",
+        "job_type": "24426d0d-f894-4140-96b7-f566644ad2bc"
+    }
+},
+{
+    "model": "jobs.taggingjob",
+    "pk": "d3f91d47-3894-4ce9-a7b1-536f66fe204a",
+    "fields": {
+        "created_in": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "created_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "assigned_to": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "taken_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "video": "4cfefdc0-7a5a-4f44-a7bb-bb8652fc5bb2",
+        "job_type": "24426d0d-f894-4140-96b7-f566644ad2bc"
+    }
+},
+{
+    "model": "jobs.taggingjob",
+    "pk": "e0938832-cc2d-48f2-a29c-08e7b4209ee1",
+    "fields": {
+        "created_in": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "created_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "assigned_to": "4be3a2b3-2db7-4dcf-828e-f28dd78783aa",
+        "taken_by": "8104dc40-048a-47b5-9bd4-75d57c5c45d4",
+        "video": "429e6cbc-9096-4f48-bdb8-12aa974d0846",
+        "job_type": "24426d0d-f894-4140-96b7-f566644ad2bc"
+    }
+}
+]

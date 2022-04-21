@@ -1,0 +1,11 @@
+AWS_UPLOAD_BUCKET = "9x-proxy-files"
+
+AWS_UPLOAD_USERNAME = "file_upload_user"
+
+AWS_UPLOAD_GROUP = "file_upload_group"
+
+AWS_UPLOAD_REGION = 'ap-south-1'
+
+AWS_UPLOAD_ACCESS_KEY_ID = "AKIAVJRIPQ4MLMSTGVP3"
+
+AWS_UPLOAD_SECRET_KEY = "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"

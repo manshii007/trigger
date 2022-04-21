@@ -1,0 +1,179 @@
+version: '2'
+
+services:
+
+    web:
+      restart: always
+      build:
+        context: ./web
+      depends_on:
+        - web_ffmpeg
+        - postgres
+        - redis
+        - rabbitmq
+      expose:
+        - "8000"
+      volumes:
+        - tmp-data:/tmp/
+        - dump:/dump
+      environment:
+        - GOOGLE_APPLICATION_CREDENTIALS=/usr/src/app/tessact-subs-e9601f76f09c.json
+        - ELASTIC=search-demosearch-cvexn2nvexyis433ec6ovoolg4.ap-south-1.es.amazonaws.com
+        - BACKNED_URL=35.154.103.167
+        - BUCKET=trigger-demo-media
+      command: /usr/local/bin/gunicorn wsgi:application -w 1 -b :8000
+      logging:
+        driver: json-file
+        options:
+          max-size: '10m'
+          max-file: '3'
+
+    web_ffmpeg:
+      restart: always
+      build:
+        context: ./web
+      depends_on:
+        - postgres
+        - redis
+        - rabbitmq
+      expose:
+        - "8000"
+      volumes:
+        - tmp-data:/tmp/
+      environment:                                                                                     
+        - GOOGLE_APPLICATION_CREDENTIALS=/usr/src/app/tessact-subs-e9601f76f09c.json                   
+        - ELASTIC=search-demosearch-cvexn2nvexyis433ec6ovoolg4.ap-south-1.es.amazonaws.com
+        - BACKNED_URL=35.154.103.167
+        - BUCKET=trigger-demo-media
+      command: /usr/local/bin/celery -A trigger worker -l info
+      logging:
+        driver: json-file
+        options:
+          max-size: '10m'
+          max-file: '3'
+
+    web_scheduler:
+      restart: always
+      build:
+        context: ./web
+      depends_on:
+        - postgres
+        - redis
+        - rabbitmq
+      expose:
+        - "8000"
+      volumes:
+        - tmp-data:/tmp/
+      environment:                                                                                     
+        - GOOGLE_APPLICATION_CREDENTIALS=/usr/src/app/tessact-subs-e9601f76f09c.json                   
+        - ELASTIC=search-demosearch-cvexn2nvexyis433ec6ovoolg4.ap-south-1.es.amazonaws.com
+        - BACKNED_URL=35.154.103.167
+        - BUCKET=trigger-demo-media
+      command: /usr/local/bin/celery -A trigger worker -l info -B
+      logging:
+        driver: json-file
+        options:
+          max-size: '10m'
+          max-file: '3'
+        
+
+    nginx-proxy:
+      restart: always
+      build:
+        context: ./nginx-proxy
+      ports:
+        - "80:80"
+        - "443:443"
+      volumes:
+        - certloc:/usr/share/letsencrypt
+        - public_html:/tmp/certbot/public_html
+        - /home/ubuntu/certbot/www:/var/www/certbot/:ro
+        - /home/ubuntu/certbot/keys:/etc/letsencrypt/live/:ro
+      volumes_from:
+        - web
+      logging:
+        driver: json-file
+        options:
+          max-size: '10m'
+          max-file: '3'
+
+
+    postgres:
+      restart: always
+      image: postgres:11
+      environment:                                                                                     
+        - POSTGRES_PASSWORD=postgres
+      ports:
+        - "5432:5432"
+      expose:
+        - "5432"
+      volumes:
+        - pgdata:/var/lib/postgresql/data/
+      shm_size: 1g
+      logging:
+        driver: json-file
+        options:
+          max-size: '10m'
+          max-file: '3'
+
+    redis:
+      restart: always
+      image: redis:latest
+      expose:
+        - "6379"
+      volumes:
+        - redisdata:/data
+      logging:
+        driver: json-file
+        options:
+          max-size: '10m'
+          max-file: '3'
+          
+    rabbitmq:
+      restart: always
+      image: rabbitmq:3-management
+      environment:
+        RABBITMQ_DEFAULT_USER: 'adminuser'
+        RABBITMQ_DEFAULT_PASS: 'adminuser'
+        RABBITMQ_DEFAULT_VHOST: 'myvhost'
+      ports:
+        - "15672:15672"
+        - "5672:5672"
+      expose:
+        - "5672"
+      logging:
+        driver: json-file
+        options:
+          max-size: '10m'
+          max-file: '3'
+
+    gentle:
+      restart: always
+      image: lowerquality/gentle:latest
+      expose:
+        - "8765"
+
+volumes:
+    certloc:
+      external: true
+    public_html:
+      external: true
+    redisdata:
+    tmp-data:
+      driver: local
+      driver_opts:
+        type: none
+        o: bind
+        device: /mnt/web-data
+    dump:
+      driver: local
+      driver_opts:
+        type: none
+        o: bind
+        device: /mnt/dump
+    pgdata:
+#      driver: local
+#      driver_opts:
+#        type: none
+#        o: bind
+#        device: /mnt/pg_data/triggerdocker_pgdata

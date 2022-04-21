@@ -1,0 +1,13 @@
+[
+{
+    "model": "jobs.jobtype",
+    "pk": "0c439fae-5b4c-45c6-b9ea-b9454c17efd8",
+    "fields": {
+        "name": "S & P",
+        "description": "Check for cigars and alcohol",
+        "permissions": [
+            35
+        ]
+    }
+}
+]

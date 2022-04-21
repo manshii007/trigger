@@ -1,0 +1,13 @@
+[
+{
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+        "name": "bc050b80-ee62-4b26-9b4d-7533bb92b953",
+        "permissions": [
+            31,
+            61
+        ]
+    }
+}
+]

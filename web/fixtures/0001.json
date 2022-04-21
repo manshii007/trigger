@@ -1,0 +1,1101 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "token"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "guardian",
+    "model": "userobjectpermission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "guardian",
+    "model": "groupobjectpermission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "users",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "video",
+    "model": "video"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "tags",
+    "model": "tagcategory"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "tags",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "tags",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "tags",
+    "model": "frametag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "content",
+    "model": "genericlibrary"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "workgroups",
+    "model": "workgroup"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "jobs",
+    "model": "jobtype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "jobs",
+    "model": "job"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "jobs",
+    "model": "taggingjob"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "video",
+    "model": "videolibrary"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mcw0jswj5s1x4sngyjkefs2ppg3dtvuy",
+  "fields": {
+    "session_data": "YTJiNzBiM2EyOGNkYTFiOTg5MGRkNzRhMzM3MmE4Y2FiZjg0OGJjMzp7Il9hdXRoX3VzZXJfaWQiOiJlYTcxNjgwMC0xZDQ0LTQyMDktODQ4Mi0yYTA2MDA3ZDc0MDAiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6IjU1NGVkMGE4NDQxY2EwYWNjMDRhMTEwZDFhN2Y3NzNlNjQwOGJkNTkifQ==",
+    "expire_date": "2017-01-27T15:22:32.348Z"
+  }
+},
+{
+  "model": "video.video",
+  "pk": "43a843f4-430f-46f2-9c70-fda0b755c0f0",
+  "fields": {
+    "title": "jikkkk",
+    "file": "videos/d1d4aab5-d3f4-47da-96f8-af0f29b5af1e.mp4",
+    "is_removed": false,
+    "created_on": "2017-01-16T19:01:43.625Z",
+    "modified_on": "2017-01-16T19:01:43.625Z",
+    "poster": "images/3d2cc933-042e-4a02-9759-1bfb0b59ac6f.jpg",
+    "poster_ppoi": "0.5x0.5"
+  }
+},
+{
+  "model": "video.video",
+  "pk": "af6a9ffa-f89f-4fe9-96de-c465f9c1e7d4",
+  "fields": {
+    "title": "Manga",
+    "file": "videos/1d4a31fb-c002-43fa-af66-ab2d184cbdb1.mp4",
+    "is_removed": false,
+    "created_on": "2017-01-15T06:23:18.069Z",
+    "modified_on": "2017-01-15T06:23:18.069Z",
+    "poster": "images/a2940250-1d47-4be3-9a90-8e80613e41fb.jpg",
+    "poster_ppoi": "0.5x0.5"
+  }
+},
+{
+  "model": "video.videolibrary",
+  "pk": "18377d54-626f-475f-824c-50267e509c95",
+  "fields": {
+    "videos": []
+  }
+},
+{
+  "model": "video.videolibrary",
+  "pk": "511b2d32-dbcd-4b57-81e1-9d1e500cea7a",
+  "fields": {
+    "videos": [
+      "af6a9ffa-f89f-4fe9-96de-c465f9c1e7d4"
+    ]
+  }
+},
+{
+  "model": "video.videolibrary",
+  "pk": "9daf9cbe-86f5-41a5-9462-01ef982367d8",
+  "fields": {
+    "videos": []
+  }
+},
+{
+  "model": "tags.tagcategory",
+  "pk": "3cedd586-889d-44fc-ac06-276500a9f0d8",
+  "fields": {
+    "name": "Ads"
+  }
+},
+{
+  "model": "tags.tagcategory",
+  "pk": "bbad83f1-e2c7-4c12-bdec-f60d49757c36",
+  "fields": {
+    "name": "Standards and Practices"
+  }
+},
+{
+  "model": "tags.tag",
+  "pk": "64b9916c-9d33-443a-aebb-890b4db9e25f",
+  "fields": {
+    "name": "Alcohol",
+    "is_removed": false,
+    "category": "bbad83f1-e2c7-4c12-bdec-f60d49757c36",
+    "created_on": "2017-01-16T13:39:09.663Z",
+    "modified_on": "2017-01-16T13:39:09.663Z"
+  }
+},
+{
+  "model": "tags.tag",
+  "pk": "944f09f2-d327-4736-ba14-8d4096ab17da",
+  "fields": {
+    "name": "Cigarette",
+    "is_removed": false,
+    "category": "bbad83f1-e2c7-4c12-bdec-f60d49757c36",
+    "created_on": "2017-01-16T13:38:52.474Z",
+    "modified_on": "2017-01-16T13:38:52.475Z"
+  }
+},
+{
+  "model": "tags.frametag",
+  "pk": "15dbf976-2198-4c9f-babb-958122287ae6",
+  "fields": {
+    "tag": "944f09f2-d327-4736-ba14-8d4096ab17da",
+    "video": "af6a9ffa-f89f-4fe9-96de-c465f9c1e7d4",
+    "frame_in": 2,
+    "frame_out": 8
+  }
+},
+{
+  "model": "tags.frametag",
+  "pk": "ec4d9a1d-4e8f-48c3-b3af-8011ee07501e",
+  "fields": {
+    "tag": "64b9916c-9d33-443a-aebb-890b4db9e25f",
+    "video": "af6a9ffa-f89f-4fe9-96de-c465f9c1e7d4",
+    "frame_in": 3,
+    "frame_out": 8
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": 6,
+    "codename": "add_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": 6,
+    "codename": "change_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": 6,
+    "codename": "delete_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can add user object permission",
+    "content_type": 7,
+    "codename": "add_userobjectpermission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can change user object permission",
+    "content_type": 7,
+    "codename": "change_userobjectpermission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can delete user object permission",
+    "content_type": 7,
+    "codename": "delete_userobjectpermission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can add group object permission",
+    "content_type": 8,
+    "codename": "add_groupobjectpermission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can change group object permission",
+    "content_type": 8,
+    "codename": "change_groupobjectpermission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can delete group object permission",
+    "content_type": 8,
+    "codename": "delete_groupobjectpermission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 9,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 9,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 9,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can add video",
+    "content_type": 10,
+    "codename": "add_video"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can change video",
+    "content_type": 10,
+    "codename": "change_video"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can delete video",
+    "content_type": 10,
+    "codename": "delete_video"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can view videos",
+    "content_type": 10,
+    "codename": "view_video"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can add tag category",
+    "content_type": 12,
+    "codename": "add_tagcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can change tag category",
+    "content_type": 12,
+    "codename": "change_tagcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can delete tag category",
+    "content_type": 12,
+    "codename": "delete_tagcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can view tag category",
+    "content_type": 12,
+    "codename": "view_tagcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 13,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 13,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 13,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 13,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 14,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 14,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 14,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 14,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can add frame tag",
+    "content_type": 15,
+    "codename": "add_frametag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can change frame tag",
+    "content_type": 15,
+    "codename": "change_frametag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can delete frame tag",
+    "content_type": 15,
+    "codename": "delete_frametag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can view frame tags",
+    "content_type": 15,
+    "codename": "view_frametag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can add generic library",
+    "content_type": 16,
+    "codename": "add_genericlibrary"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can change generic library",
+    "content_type": 16,
+    "codename": "change_genericlibrary"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can delete generic library",
+    "content_type": 16,
+    "codename": "delete_genericlibrary"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can add work group",
+    "content_type": 17,
+    "codename": "add_workgroup"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can change work group",
+    "content_type": 17,
+    "codename": "change_workgroup"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can delete work group",
+    "content_type": 17,
+    "codename": "delete_workgroup"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can view work group",
+    "content_type": 17,
+    "codename": "view_workgroup"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can add job type",
+    "content_type": 18,
+    "codename": "add_jobtype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can change job type",
+    "content_type": 18,
+    "codename": "change_jobtype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can delete job type",
+    "content_type": 18,
+    "codename": "delete_jobtype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can view job type",
+    "content_type": 18,
+    "codename": "view_jobtype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can add job",
+    "content_type": 19,
+    "codename": "add_job"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can change job",
+    "content_type": 19,
+    "codename": "change_job"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can delete job",
+    "content_type": 19,
+    "codename": "delete_job"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can view job",
+    "content_type": 19,
+    "codename": "view_job"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can add tagging job",
+    "content_type": 20,
+    "codename": "add_taggingjob"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can change tagging job",
+    "content_type": 20,
+    "codename": "change_taggingjob"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can delete tagging job",
+    "content_type": 20,
+    "codename": "delete_taggingjob"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can view tagging job",
+    "content_type": 20,
+    "codename": "view_taggingjob"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can add video library",
+    "content_type": 21,
+    "codename": "add_videolibrary"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can change video library",
+    "content_type": 21,
+    "codename": "change_videolibrary"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can delete video library",
+    "content_type": 21,
+    "codename": "delete_videolibrary"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "e4d8fa6a-dd29-483f-84af-92eb99fe7888",
+    "permissions": [
+      39,
+      42,
+      28,
+      31
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "0e952209-5581-4e79-81ea-d674600c401b",
+    "permissions": [
+      57
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 3,
+  "fields": {
+    "name": "bb4a4123-6bb9-4eb3-afc3-19082c9c4971",
+    "permissions": [
+      57
+    ]
+  }
+},
+{
+  "model": "guardian.groupobjectpermission",
+  "pk": 1,
+  "fields": {
+    "permission": 28,
+    "content_type": 10,
+    "object_pk": "af6a9ffa-f89f-4fe9-96de-c465f9c1e7d4",
+    "group": 1
+  }
+},
+{
+  "model": "guardian.groupobjectpermission",
+  "pk": 2,
+  "fields": {
+    "permission": 31,
+    "content_type": 10,
+    "object_pk": "af6a9ffa-f89f-4fe9-96de-c465f9c1e7d4",
+    "group": 1
+  }
+},
+{
+  "model": "guardian.groupobjectpermission",
+  "pk": 3,
+  "fields": {
+    "permission": 57,
+    "content_type": 17,
+    "object_pk": "2a1cc27d-3876-4df6-b6cc-f052bbe81681",
+    "group": 2
+  }
+},
+{
+  "model": "guardian.groupobjectpermission",
+  "pk": 4,
+  "fields": {
+    "permission": 57,
+    "content_type": 17,
+    "object_pk": "3af20e08-395a-44a3-aff3-8697bddd100a",
+    "group": 3
+  }
+},
+{
+  "model": "users.user",
+  "pk": "34590e33-4586-472f-9fa4-396c8cd0e1ca",
+  "fields": {
+    "password": "!34vOR57UzgXJYAe1fG3UdnpjZZS5CYnLdYUPnW4s",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "AnonymousUser",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2017-01-12T17:07:36.735Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": "dfbbb180-0dc4-41cf-8b3b-d6bd85b6b084",
+  "fields": {
+    "password": "pbkdf2_sha256$24000$zPbgyfM9n2Z2$Ak7P5VRVoW/8quxKd70Ym4roWYGgFzIyOGLLkrAyo5c=",
+    "last_login": "2017-01-13T15:20:48.546Z",
+    "is_superuser": false,
+    "username": "apurv",
+    "first_name": "",
+    "last_name": "",
+    "email": "apurv@tessact.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2017-01-13T14:14:28.852Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": "ea716800-1d44-4209-8482-2a06007d7400",
+  "fields": {
+    "password": "pbkdf2_sha256$24000$wMgL7bLax9EE$Wj93RmJaBmJsm6NqON9QIlbAecTSzMVY+Cw9e/v0xgo=",
+    "last_login": "2017-01-13T15:22:32.336Z",
+    "is_superuser": true,
+    "username": "aswin",
+    "first_name": "",
+    "last_name": "",
+    "email": "aswin@tessact.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2017-01-12T17:08:26.119Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "workgroups.workgroup",
+  "pk": "2a1cc27d-3876-4df6-b6cc-f052bbe81681",
+  "fields": {
+    "group": 2,
+    "name": "Operations",
+    "videolibrary": "18377d54-626f-475f-824c-50267e509c95"
+  }
+},
+{
+  "model": "workgroups.workgroup",
+  "pk": "3af20e08-395a-44a3-aff3-8697bddd100a",
+  "fields": {
+    "group": 3,
+    "name": "Commercials",
+    "videolibrary": "9daf9cbe-86f5-41a5-9462-01ef982367d8"
+  }
+},
+{
+  "model": "workgroups.workgroup",
+  "pk": "68002a04-a209-4686-b0c7-414155acc18d",
+  "fields": {
+    "group": 1,
+    "name": "Compliance",
+    "videolibrary": "511b2d32-dbcd-4b57-81e1-9d1e500cea7a"
+  }
+},
+{
+  "model": "guardian.userobjectpermission",
+  "pk": 1,
+  "fields": {
+    "permission": 31,
+    "content_type": 10,
+    "object_pk": "af6a9ffa-f89f-4fe9-96de-c465f9c1e7d4",
+    "user": "ea716800-1d44-4209-8482-2a06007d7400"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "06c7426ecaac99e9a90c6d8abd50c61fc91abead",
+  "fields": {
+    "user": "34590e33-4586-472f-9fa4-396c8cd0e1ca",
+    "created": "2017-01-12T17:07:36.738Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "4cf923221aa69b304636313126da42890da44aef",
+  "fields": {
+    "user": "ea716800-1d44-4209-8482-2a06007d7400",
+    "created": "2017-01-12T17:08:26.216Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "f64124a72c3988150037b62166ab53e3f5cd0194",
+  "fields": {
+    "user": "dfbbb180-0dc4-41cf-8b3b-d6bd85b6b084",
+    "created": "2017-01-13T14:14:28.969Z"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2017-01-13T11:33:25.627Z",
+    "user": "ea716800-1d44-4209-8482-2a06007d7400",
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "e4d8fa6a-dd29-483f-84af-92eb99fe7888",
+    "action_flag": 2,
+    "change_message": "Changed permissions."
+  }
+}
+]

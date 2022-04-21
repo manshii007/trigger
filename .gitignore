@@ -1,0 +1,10 @@
+
+**/.DS_Store
+.idea/
+env/
+*.pyc
+.vscode/
+**/staticfiles/
+**/__pycache__/*
+node_modules
+.web/demo-local.yml

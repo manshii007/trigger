@@ -1,0 +1,40 @@
+[
+{
+    "model": "users.user",
+    "pk": "24982c32-9036-4686-b6ac-4874da283f2e",
+    "fields": {
+        "password": "pbkdf2_sha256$24000$2QXgyf2NKWTS$Him2tsTJHU9e15XCk5JhLUzlaDtYGoW/0ZxO0yVbQ0k=",
+        "last_login": "2017-02-15T16:21:30.269Z",
+        "is_superuser": true,
+        "username": "Apurv",
+        "first_name": "",
+        "last_name": "",
+        "email": "apurv@tessact.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-02-15T14:44:11.716Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": "97f5fae6-9edf-445c-8a14-944185516241",
+    "fields": {
+        "password": "pbkdf2_sha256$24000$ZEAsSYKeczUl$FxuuHpamKcEMQwCAlljugUDetFtEC4qqpN364prW9F8=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "aswin",
+        "first_name": "",
+        "last_name": "",
+        "email": "aswin@tessact.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-02-15T14:44:26.603Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

@@ -1,0 +1,11 @@
+[
+{
+    "model": "workgroups.workgroup",
+    "pk": "c4779d87-b2e2-4405-bea1-2ad779117f50",
+    "fields": {
+        "group": 1,
+        "name": "Compliance",
+        "videolibrary": "082b1333-dd35-4ff4-8f75-2fc2a42e158d"
+    }
+}
+]

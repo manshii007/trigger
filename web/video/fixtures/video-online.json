@@ -1,0 +1,268 @@
+[
+{
+    "model": "video.video",
+    "pk": "03e67c7e-f9e9-4db8-959d-982baed43be9",
+    "fields": {
+        "title": "73 Questions with Olivia Munn",
+        "file": "videos/eb3ff270-fa06-4947-befd-80c28f7e7ab2.mp4",
+        "is_removed": false,
+        "created_on": "2017-03-23T21:21:20.544Z",
+        "modified_on": "2017-03-23T21:21:39.004Z",
+        "duration": 458.583333,
+        "height": 360,
+        "width": 640,
+        "frame_rate": 23.976023976024,
+        "video_codec": "h264",
+        "total_frames": 10995,
+        "poster": "images/bffc6745-f35a-409b-b71a-3538c3ca9123.jpg",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.video",
+    "pk": "10a03f51-7e3c-46e6-9b16-c82b8bc9747d",
+    "fields": {
+        "title": "Modi",
+        "file": "videos/a23aa75a-6613-48ba-bbfa-cbe5b7e9ea4c.mp4",
+        "is_removed": false,
+        "created_on": "2017-01-23T14:52:27.268Z",
+        "modified_on": "2017-02-17T08:25:33.179Z",
+        "duration": 44.48,
+        "height": 300,
+        "width": 400,
+        "frame_rate": 24.910071942446,
+        "video_codec": "h264",
+        "total_frames": 1108,
+        "poster": "images/1b2a272b-f444-4810-b6ed-ef56d11b9637.jpg",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.video",
+    "pk": "2015acda-e6c1-49da-bd60-b67293670b10",
+    "fields": {
+        "title": "Don 2 Trailer",
+        "file": "videos/cf7f81ec-99dd-4bb4-a095-e5802377a5f9.mp4",
+        "is_removed": false,
+        "created_on": "2017-02-17T08:06:02.183Z",
+        "modified_on": "2017-02-17T08:34:32.682Z",
+        "duration": 86.44,
+        "height": 720,
+        "width": 1280,
+        "frame_rate": 25.0,
+        "video_codec": "h264",
+        "total_frames": 2161,
+        "poster": "images/f466b62e-348c-4b24-8756-8febf211fbeb.jpg",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.video",
+    "pk": "290e22fd-1eb8-43f2-abd6-585f2e5dbeca",
+    "fields": {
+        "title": "Haraamkhor",
+        "file": "videos/a1dd9aab-5f01-4e54-a702-5ed1df2b162e.mp4",
+        "is_removed": false,
+        "created_on": "2017-01-25T18:37:34.197Z",
+        "modified_on": "2017-01-25T18:37:53.434Z",
+        "duration": 134.708333,
+        "height": 720,
+        "width": 1280,
+        "frame_rate": 24.0,
+        "video_codec": "h264",
+        "total_frames": 3233,
+        "poster": "images/adb6b3e9-1657-4196-9a03-70fe81a6156a.jpg",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.video",
+    "pk": "429e6cbc-9096-4f48-bdb8-12aa974d0846",
+    "fields": {
+        "title": "Fast and Furious",
+        "file": "videos/228a9967-5bff-4b2f-8b4b-85f59f248c14.mp4",
+        "is_removed": false,
+        "created_on": "2017-03-26T05:20:57.235Z",
+        "modified_on": "2017-03-26T05:21:14.108Z",
+        "duration": 191.36,
+        "height": 720,
+        "width": 1280,
+        "frame_rate": 25.0,
+        "video_codec": "h264",
+        "total_frames": 4784,
+        "poster": "images/97720291-011f-463a-a984-a11650514993.jpg",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.video",
+    "pk": "4cfefdc0-7a5a-4f44-a7bb-bb8652fc5bb2",
+    "fields": {
+        "title": "Spider Man",
+        "file": "videos/e6cbc47b-d4d0-4944-8fa6-9a4cd031685d.mp4",
+        "is_removed": false,
+        "created_on": "2017-03-26T11:37:15.627Z",
+        "modified_on": "2017-03-26T11:37:37.254Z",
+        "duration": 203.533333,
+        "height": 720,
+        "width": 1280,
+        "frame_rate": 30.0,
+        "video_codec": "h264",
+        "total_frames": 6106,
+        "poster": "images/6e030c82-a0db-49f8-8a9a-c8b5624c9c6c.jpg",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.video",
+    "pk": "8722cb6b-6c90-4ed3-aef8-63210cd3c3bf",
+    "fields": {
+        "title": "The Hangover 2",
+        "file": "videos/a749f776-7354-430e-aa8a-a63957bead65.mp4",
+        "is_removed": false,
+        "created_on": "2017-03-23T20:56:25.912Z",
+        "modified_on": "2017-03-23T20:56:47.390Z",
+        "duration": 127.544078,
+        "height": 720,
+        "width": 1280,
+        "frame_rate": 23.9760250203699,
+        "video_codec": "h264",
+        "total_frames": 3058,
+        "poster": "images/6082948b-b3ab-4f7a-a9ab-a51603b809a4.jpg",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.video",
+    "pk": "8cde3d84-be26-47f2-bc4d-83fd2eed7940",
+    "fields": {
+        "title": "Definitely, Maybe",
+        "file": "videos/970bb780-ce2f-4c26-98fa-6cd7195b17fb.mp4",
+        "is_removed": false,
+        "created_on": "2017-02-17T08:42:12.080Z",
+        "modified_on": "2017-02-17T08:44:27.507Z",
+        "duration": 189.6483,
+        "height": 720,
+        "width": 1280,
+        "frame_rate": 23.9812326290296,
+        "video_codec": "h264",
+        "total_frames": 4548,
+        "poster": "images/160d2c9a-6994-4afe-867a-b419a0b7aac6.jpg",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.video",
+    "pk": "9338b684-1c2e-4375-9db0-9d0f7dae1e5c",
+    "fields": {
+        "title": "Casey Neistat",
+        "file": "videos/61880054-df65-42a5-af27-7c5ef9d7c11a.mp4",
+        "is_removed": false,
+        "created_on": "2017-03-23T21:39:44.430Z",
+        "modified_on": "2017-03-23T21:40:00.920Z",
+        "duration": 544.668333,
+        "height": 360,
+        "width": 640,
+        "frame_rate": 23.976023976024,
+        "video_codec": "h264",
+        "total_frames": 13059,
+        "poster": "images/7599bfb9-6429-4feb-b990-93027aeca537.jpg",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.video",
+    "pk": "a4eb2cd9-d244-4016-8395-378ddf4da839",
+    "fields": {
+        "title": "My Cousin Vinny",
+        "file": "videos/49b6c67c-da98-4d9c-b3b6-49fa49587ecb.mp4",
+        "is_removed": false,
+        "created_on": "2017-03-23T20:34:36.428Z",
+        "modified_on": "2017-03-23T20:34:52.429Z",
+        "duration": 159.7012,
+        "height": 720,
+        "width": 1280,
+        "frame_rate": 23.9760252271116,
+        "video_codec": "h264",
+        "total_frames": 3829,
+        "poster": "images/b44131a1-8d97-490e-812e-306a1dd16ad6.jpeg",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.video",
+    "pk": "b6b3a3df-c8b9-4531-bf32-d477aec6f3cf",
+    "fields": {
+        "title": "Raman Raghav Clip",
+        "file": "videos/00e3b268-9142-4b81-b0b2-55b7c5705458.mp4",
+        "is_removed": false,
+        "created_on": "2017-02-17T08:27:51.265Z",
+        "modified_on": "2017-02-17T08:33:26.084Z",
+        "duration": 537.788011,
+        "height": 544,
+        "width": 1280,
+        "frame_rate": 23.8700003249938,
+        "video_codec": "h264",
+        "total_frames": 12837,
+        "poster": "images/4fafd817-4864-43c9-bf69-6d5cbaf7973f.png",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.video",
+    "pk": "c19cbe0c-8e7a-4578-9eae-838289dbe942",
+    "fields": {
+        "title": "My Cousin Vinny 5/5",
+        "file": "videos/eae5d3b6-7902-43d1-b0a6-c12b2ddeb60d.mp4",
+        "is_removed": false,
+        "created_on": "2017-03-24T09:37:57.522Z",
+        "modified_on": "2017-03-24T09:38:15.192Z",
+        "duration": 153.736911,
+        "height": 720,
+        "width": 1280,
+        "frame_rate": 23.9760248424401,
+        "video_codec": "h264",
+        "total_frames": 3686,
+        "poster": "images/6e1d1bc3-21f1-41dd-ab68-437a1a1ef813.jpeg",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.video",
+    "pk": "dcbb9a60-eab8-4dc5-830d-087e7e7f0f70",
+    "fields": {
+        "title": "Dabangg 2",
+        "file": "videos/b5a6c5a9-5224-492a-a422-c5210187b7fb.mp4",
+        "is_removed": false,
+        "created_on": "2017-03-23T20:15:43.280Z",
+        "modified_on": "2017-03-23T20:16:01.400Z",
+        "duration": 112.36,
+        "height": 720,
+        "width": 1280,
+        "frame_rate": 25.0,
+        "video_codec": "h264",
+        "total_frames": 2809,
+        "poster": "images/aafb8a7a-3d27-499f-8b4d-6dd8adf4c8cc.jpg",
+        "poster_ppoi": "0.5x0.5"
+    }
+},
+{
+    "model": "video.video",
+    "pk": "efacbafb-d28e-4bde-b7ed-29db879152f6",
+    "fields": {
+        "title": "Evan Almighty",
+        "file": "videos/3e9e474b-140e-4922-a9bd-56e357bcaa22.mp4",
+        "is_removed": false,
+        "created_on": "2017-03-23T20:48:47.940Z",
+        "modified_on": "2017-03-23T20:49:04.363Z",
+        "duration": 134.552,
+        "height": 720,
+        "width": 1280,
+        "frame_rate": 23.9832927046792,
+        "video_codec": "h264",
+        "total_frames": 3227,
+        "poster": "images/a7e6c3fd-6b23-4561-a127-422e48a3016a.jpg",
+        "poster_ppoi": "0.5x0.5"
+    }
+}
+]
